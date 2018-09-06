@@ -1,5 +1,6 @@
 id: wishbone
 docker_repository: dynverse/ti_wishbone
+singularity_collection: 1590
 container_url: https://github.com/dynverse/ti_wishbone
 name: Wishbone
 type: algorithm
