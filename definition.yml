@@ -67,7 +67,10 @@ output:
   - pseudotime
   - dimred
   - timings
-wrapper_type: trajectory
+wrapper_type:
+- trajectory
+- bifurcation
+- convergence
 doi: 10.1038/nbt.3569
 google_scholar_cluster_id: '13118132590290322671'
 trajectory_types: linear
