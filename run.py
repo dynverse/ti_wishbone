@@ -93,7 +93,7 @@ cell_ids = pd.DataFrame({
 })
 
 # save
-dataset = dynclipy.wrap_data(cell_ids = dimred.index)
+dataset = dynclipy.wrap_data(cell_ids = dimred["cell_id"])
 dataset.add_trajectory(
   milestone_network = milestone_network,
   progressions = progressions
