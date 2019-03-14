@@ -32,7 +32,6 @@ wrapper:
   - linear
   - bifurcation
   - convergence
-  example:
   input_required:
   - counts
   - start_id
